@@ -1,10 +1,28 @@
+html,
+body{
+  height: 100%;
+}
+
 body{
   @extend %rubik-400;
   color: $title;
+  display: flex;
+  flex-direction: column;
+}
+.main{
+  flex-grow: 1;
 }
 
 .container{
   max-width: 1800px;
   padding: 0 15px;
   margin: 0 auto;
+}
+
+
+a{
+  display: inline-block;
+  font-size: 14px;
+  line-height: 32px;
+  color: $link;
 }
