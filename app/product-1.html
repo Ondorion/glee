@@ -1,0 +1,1224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Glee</title>
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+        <a class="logo" href="#">
+          <img class="logo__img" src="images/logo.png" alt="">
+        </a>
+
+        <nav class="menu">
+          <ul class="menu__list">
+            <li class="menu__list-item menu__list-item--active">
+              <a href="" class="menu__item-link">Home</a>
+            </li>
+            <li class="menu__list-item">
+              <a href="" class="menu__item-link">About</a>
+            </li>
+            <li class="menu__list-item">
+              <a href="" class="menu__item-link">Services</a>
+            </li>
+            <li class="menu__list-item">
+              <a href="" class="menu__item-link">Pages +</a>
+            </li>
+            <li class="menu__list-item">
+              <a href="" class="menu__item-link">News</a>
+            </li>
+            <li class="menu__list-item">
+              <a href="" class="menu__item-link">Contact</a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="user-nav">
+          <a class="user-nav__link" href="#">
+            <img class="user-nav__img" src="images/search.svg" alt="">
+          </a>
+          <div class="user-nav__choice">
+            <a class="user-nav__choice-link" href="#">
+              <img class="user-nav__img" src="images/heart.svg" alt="">
+              <span class="user-nav__num user-nav__num-one">0</span>
+            </a>
+            <a class="user-nav__choice-link" href="#">
+              <img class="user-nav__img" src="images/market.svg" alt="">
+              <span class="user-nav__num user-nav__num-two">0</span>
+            </a>
+          </div>
+          <button class="user-nav__button" href="#">
+            <img class="user-nav__img" src="images/button.png" alt="">
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="top">
+      <div class="container">
+        <h2 class="breadcrumbs__title">Product list 1</h2>
+        <div class="breadcrumbs">
+          <ul class="breadcrumbs__list">
+            <li class="breadcrumbs__item">
+              <a class="breadcrumbs__link" href="#">
+                Home
+              </a>
+            </li>
+            <li class="breadcrumbs__item">
+              <a class="breadcrumbs__link" href="#">
+                Product list 1
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="shop">
+      <div class="container-content">
+        <div class="shop__inner">
+          <div class="shop__filters">
+            <div class="filter__item filter-category">
+              <h3 class="filter__title">CATEGORY</h3>
+              <label class="filter-category__label">
+                <input class="filter-category__input" checked type="checkbox">
+                <div class="filter-category__checkbox">
+                  <span class="filter-category__text">Chair</span>
+                  <span class="filter-category__img"></span>
+                </div>
+              </label>
+              <label class="filter-category__label">
+                <input class="filter-category__input" type="checkbox">
+                <div class="filter-category__checkbox">
+                  <span class="filter-category__text">Table</span>
+                  <span class="filter-category__img"></span>
+                </div>
+              </label>
+              <label class="filter-category__label">
+                <input class="filter-category__input" type="checkbox">
+                <div class="filter-category__checkbox">
+                  <span class="filter-category__text">Lamp</span>
+                  <span class="filter-category__img"></span>
+                </div>
+              </label>
+              <label class="filter-category__label">
+                <input class="filter-category__input" type="checkbox">
+                <div class="filter-category__checkbox">
+                  <span class="filter-category__text">Watch</span>
+                  <span class="filter-category__img"></span>
+                </div>
+              </label>
+              <label class="filter-category__label">
+                <input class="filter-category__input" type="checkbox">
+                <div class="filter-category__checkbox">
+                  <span class="filter-category__text">Clock</span>
+                  <span class="filter-category__img"></span>
+                </div>
+              </label>
+            </div>
+
+
+
+            <div class="filter__item filter-prise">
+              <h3 class="filter__title">Price Filter</h3>
+              <form class="filter-prise__form" action="#">
+                <input class="filter-prise__input" type="text" data-min="0" data-max="999" data-from="100.00" data-to="500.00
+                  ">
+                <label class="filter-price__label">
+                  <div class="filter-price__label-item">
+                    $<span class="filter-prise__from">.00</span>.00
+                  </div>
+                  <div class="filter-price__label-item">
+                    $<span class="filter-prise__to"></span>.00
+                  </div>
+                </label>
+              </form>
+            </div>
+
+            <div class="filter__item filter-brand">
+              <h3 class="filter__title">Brand</h3>
+              <label class="filter-brand__label">
+                <input class="filter-brand__input" type="checkbox" checked>
+                <div class="filter-brand__checkbox">
+                  <span class="filter-brand__text">RFL</span>
+                  <span class="filter-brand__num">(10)</span>
+                </div>
+              </label>
+              <label class="filter-brand__label">
+                <input class="filter-brand__input" type="checkbox">
+                <div class="filter-brand__checkbox">
+                  <span class="filter-brand__text">Brothers</span>
+                  <span class="filter-brand__num">(21)</span>
+                </div>
+              </label>
+              <label class="filter-brand__label">
+                <input class="filter-brand__input" type="checkbox">
+                <div class="filter-brand__checkbox">
+                  <span class="filter-brand__text">Regal</span>
+                  <span class="filter-brand__num">(3)</span>
+                </div>
+              </label>
+              <label class="filter-brand__label">
+                <input class="filter-brand__input" type="checkbox">
+                <div class="filter-brand__checkbox">
+                  <span class="filter-brand__text">Nadia</span>
+                  <span class="filter-brand__num">(14)</span>
+                </div>
+              </label>
+              <label class="filter-brand__label">
+                <input class="filter-brand__input" type="checkbox">
+                <div class="filter-brand__checkbox">
+                  <span class="filter-brand__text">Otobi</span>
+                  <span class="filter-brand__num">(6)</span>
+                </div>
+              </label>
+            </div>
+
+
+            <div class="filter__item filter-products">
+              <h3 class="filter__title">RECENT PRODUCTS</h3>
+              <a class="filter-products__item" href="#">
+                <div class="filter-products__img" style="background-image: url('images/products-content/1.png');"></div>
+
+                <div class="filter-products__info">
+                  <h4 class="filter-products__info-title">Pendant lamp</h4>
+                  <div class="star" data-rateyo-rating="4"></div>
+                  <span class="filter-products__info-num">23$</span>
+                </div>
+              </a>
+              <a class="filter-products__item" href="#">
+                <div class="filter-products__img" style="background-image: url('images/products-content/2.png');"></div>
+                <div class="filter-products__info">
+                  <h4 class="filter-products__info-title">Pendant lamp</h4>
+                  <div class="star" data-rateyo-rating="4"></div>
+                  <span class="filter-products__info-num">23$</span>
+                </div>
+              </a>
+              <a class="filter-products__item" href="#">
+                <div class="filter-products__img" style="background-image: url('images/products-content/3.png');"></div>
+                <div class="filter-products__info">
+                  <h4 class="filter-products__info-title">Pendant lamp</h4>
+                  <div class="star" data-rateyo-rating="4"></div>
+                  <span class="filter-products__info-num">23$</span>
+                </div>
+              </a>
+            </div>
+
+          </div>
+          <div class="shop-content">
+            <div class="product-info__content-item ">
+              <img class="product-info__content-img" src="images/product/2.png" alt="">
+              <h4 class="product-info__content-title">Wooden chair</h4>
+              <span class="product-info__price">$29.00</span>
+              <div class="product-info__images">
+                <a class="product-info__content-link" href="#">
+                  <svg width="20" height="20">
+                    <title>Products</title>
+                    <style>
+                      tspan {
+                        white-space: pre
+                      }
+
+                      .shp0 {
+                        fill: #a3bbc8
+                      }
+                    </style>
+                    <g id="Products">
+                      <g id="Items">
+                        <g id="Item 2">
+                          <path id="Forma 1" class="shp0"
+                            d="M19.45 16.8L14.86 12.21C14.18 13.27 13.27 14.18 12.21 14.86L16.8 19.45C17.53 20.18 18.72 20.18 19.45 19.45C20.18 18.72 20.18 17.53 19.45 16.8ZM15 7.5C15 3.36 11.64 0 7.5 0C3.36 0 0 3.36 0 7.5C0 11.64 3.36 15 7.5 15C11.64 15 15 11.64 15 7.5ZM7.5 13.12C4.4 13.12 1.87 10.6 1.87 7.5C1.87 4.4 4.4 1.87 7.5 1.87C10.6 1.87 13.12 4.4 13.12 7.5C13.12 10.6 10.6 13.12 7.5 13.12ZM3.12 7.5L4.37 7.5C4.37 5.78 5.78 4.37 7.5 4.37L7.5 3.12C5.09 3.12 3.12 5.09 3.12 7.5Z" />
+                        </g>
+                      </g>
+                    </g>
+                  </svg>
+                </a>
+                <a class="product-info__content-link" href="#">
+                  <svg width="22" height="20">
+                    <title>Products</title>
+                    <style>
+                      tspan {
+                        white-space: pre
+                      }
+
+                      .shp0 {
+                        fill: #a3bbc8
+                      }
+                    </style>
+                    <g id="Products">
+                      <g id="Items">
+                        <g id="Item 2">
+                          <path id="Forma 1" class="shp0"
+                            d="M0.81 1.63L3.15 1.63L6.47 13.67C6.57 14.02 6.89 14.26 7.26 14.26L17.47 14.26C17.8 14.26 18.08 14.07 18.22 13.78L21.93 5.22C22.04 4.96 22.02 4.67 21.87 4.44C21.72 4.21 21.46 4.07 21.19 4.07L9.9 4.07C9.45 4.07 9.09 4.44 9.09 4.89C9.09 5.34 9.45 5.71 9.9 5.71L19.94 5.71L16.93 12.63L7.87 12.63L4.54 0.6C4.45 0.24 4.12 0 3.76 0L0.81 0C0.37 0 0 0.37 0 0.81C0 1.26 0.37 1.63 0.81 1.63ZM6.48 20C7.5 20 8.33 19.17 8.33 18.15C8.33 17.13 7.5 16.3 6.48 16.3C5.47 16.3 4.64 17.13 4.64 18.15C4.64 19.17 5.47 20 6.48 20ZM18.01 20C18.05 20 18.11 20 18.15 20C18.64 19.96 19.09 19.74 19.41 19.36C19.74 18.99 19.89 18.52 19.86 18.02C19.79 17.01 18.91 16.23 17.89 16.3C16.87 16.37 16.11 17.27 16.18 18.27C16.25 19.24 17.05 20 18.01 20Z" />
+                        </g>
+                      </g>
+                    </g>
+                  </svg>
+                </a>
+                <a class="product-info__content-link" href="#">
+                  <svg width="22" height="18">
+                    <title>Products</title>
+                    <style>
+                      tspan {
+                        white-space: pre
+                      }
+
+                      .shp0 {
+                        fill: #a3bbc8
+                      }
+                    </style>
+                    <g id="Products">
+                      <g id="Items">
+                        <g id="Item 2">
+                          <path id="Forma 1" class="shp0"
+                            d="M21.99 5.82C21.91 4.27 21.25 2.81 20.14 1.72C19.02 0.61 17.55 0 16 0C13.69 0 12.05 1.78 11.18 2.74C11.13 2.8 11.07 2.86 11.02 2.91C10.99 2.88 10.96 2.85 10.94 2.82C10.13 1.9 8.46 0 6 0C4.45 0 2.98 0.61 1.86 1.72C0.75 2.81 0.09 4.27 0.01 5.82C-0.07 7.36 0.32 8.7 1.28 10.16C2.14 11.47 4.38 13.53 6.04 14.91C7.75 16.32 9.99 18 11.01 18C12.04 18 14.28 16.32 15.97 14.91C17.62 13.54 19.85 11.48 20.72 10.16C21.37 9.17 22.1 7.79 21.99 5.82ZM19.61 9.43C18.98 10.39 17.2 12.17 15.18 13.85C12.78 15.85 11.35 16.64 11.01 16.67C10.67 16.64 9.24 15.84 6.82 13.83C4.79 12.15 3.01 10.38 2.39 9.43C1.59 8.22 1.27 7.13 1.33 5.89C1.47 3.37 3.56 1.32 6 1.32C7.86 1.32 9.21 2.86 9.94 3.69C10.37 4.18 10.6 4.45 11 4.45C11.41 4.45 11.67 4.16 12.15 3.64C12.94 2.77 14.27 1.32 16 1.32C18.44 1.32 20.53 3.37 20.67 5.89C20.74 7.15 20.42 8.2 19.61 9.43Z" />
+                        </g>
+                      </g>
+                    </g>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="product-info__content-item">
+              <img class="product-info__content-img" src="images/product/3.png" alt="">
+              <h4 class="product-info__content-title">White chair</h4>
+              <span class="product-info__price">$29.00</span>
+              <div class="product-info__images">
+                <a class="product-info__content-link" href="#">
+                  <svg width="20" height="20">
+                    <title>Products</title>
+                    <style>
+                      tspan {
+                        white-space: pre
+                      }
+
+                      .shp0 {
+                        fill: #a3bbc8
+                      }
+                    </style>
+                    <g id="Products">
+                      <g id="Items">
+                        <g id="Item 2">
+                          <path id="Forma 1" class="shp0"
+                            d="M19.45 16.8L14.86 12.21C14.18 13.27 13.27 14.18 12.21 14.86L16.8 19.45C17.53 20.18 18.72 20.18 19.45 19.45C20.18 18.72 20.18 17.53 19.45 16.8ZM15 7.5C15 3.36 11.64 0 7.5 0C3.36 0 0 3.36 0 7.5C0 11.64 3.36 15 7.5 15C11.64 15 15 11.64 15 7.5ZM7.5 13.12C4.4 13.12 1.87 10.6 1.87 7.5C1.87 4.4 4.4 1.87 7.5 1.87C10.6 1.87 13.12 4.4 13.12 7.5C13.12 10.6 10.6 13.12 7.5 13.12ZM3.12 7.5L4.37 7.5C4.37 5.78 5.78 4.37 7.5 4.37L7.5 3.12C5.09 3.12 3.12 5.09 3.12 7.5Z" />
+                        </g>
+                      </g>
+                    </g>
+                  </svg>
+                </a>
+                <a class="product-info__content-link" href="#">
+                  <svg width="22" height="20">
+                    <title>Products</title>
+                    <style>
+                      tspan {
+                        white-space: pre
+                      }
+
+                      .shp0 {
+                        fill: #a3bbc8
+                      }
+                    </style>
+                    <g id="Products">
+                      <g id="Items">
+                        <g id="Item 2">
+                          <path id="Forma 1" class="shp0"
+                            d="M0.81 1.63L3.15 1.63L6.47 13.67C6.57 14.02 6.89 14.26 7.26 14.26L17.47 14.26C17.8 14.26 18.08 14.07 18.22 13.78L21.93 5.22C22.04 4.96 22.02 4.67 21.87 4.44C21.72 4.21 21.46 4.07 21.19 4.07L9.9 4.07C9.45 4.07 9.09 4.44 9.09 4.89C9.09 5.34 9.45 5.71 9.9 5.71L19.94 5.71L16.93 12.63L7.87 12.63L4.54 0.6C4.45 0.24 4.12 0 3.76 0L0.81 0C0.37 0 0 0.37 0 0.81C0 1.26 0.37 1.63 0.81 1.63ZM6.48 20C7.5 20 8.33 19.17 8.33 18.15C8.33 17.13 7.5 16.3 6.48 16.3C5.47 16.3 4.64 17.13 4.64 18.15C4.64 19.17 5.47 20 6.48 20ZM18.01 20C18.05 20 18.11 20 18.15 20C18.64 19.96 19.09 19.74 19.41 19.36C19.74 18.99 19.89 18.52 19.86 18.02C19.79 17.01 18.91 16.23 17.89 16.3C16.87 16.37 16.11 17.27 16.18 18.27C16.25 19.24 17.05 20 18.01 20Z" />
+                        </g>
+                      </g>
+                    </g>
+                  </svg>
+                </a>
+                <a class="product-info__content-link" href="#">
+                  <svg width="22" height="18">
+                    <title>Products</title>
+                    <style>
+                      tspan {
+                        white-space: pre
+                      }
+
+                      .shp0 {
+                        fill: #a3bbc8
+                      }
+                    </style>
+                    <g id="Products">
+                      <g id="Items">
+                        <g id="Item 2">
+                          <path id="Forma 1" class="shp0"
+                            d="M21.99 5.82C21.91 4.27 21.25 2.81 20.14 1.72C19.02 0.61 17.55 0 16 0C13.69 0 12.05 1.78 11.18 2.74C11.13 2.8 11.07 2.86 11.02 2.91C10.99 2.88 10.96 2.85 10.94 2.82C10.13 1.9 8.46 0 6 0C4.45 0 2.98 0.61 1.86 1.72C0.75 2.81 0.09 4.27 0.01 5.82C-0.07 7.36 0.32 8.7 1.28 10.16C2.14 11.47 4.38 13.53 6.04 14.91C7.75 16.32 9.99 18 11.01 18C12.04 18 14.28 16.32 15.97 14.91C17.62 13.54 19.85 11.48 20.72 10.16C21.37 9.17 22.1 7.79 21.99 5.82ZM19.61 9.43C18.98 10.39 17.2 12.17 15.18 13.85C12.78 15.85 11.35 16.64 11.01 16.67C10.67 16.64 9.24 15.84 6.82 13.83C4.79 12.15 3.01 10.38 2.39 9.43C1.59 8.22 1.27 7.13 1.33 5.89C1.47 3.37 3.56 1.32 6 1.32C7.86 1.32 9.21 2.86 9.94 3.69C10.37 4.18 10.6 4.45 11 4.45C11.41 4.45 11.67 4.16 12.15 3.64C12.94 2.77 14.27 1.32 16 1.32C18.44 1.32 20.53 3.37 20.67 5.89C20.74 7.15 20.42 8.2 19.61 9.43Z" />
+                        </g>
+                      </g>
+                    </g>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="product-info__content-item">
+              <img class="product-info__content-img" src="images/product/2.png" alt="">
+              <h4 class="product-info__content-title">Wooden chair</h4>
+              <span class="product-info__price">$29.00</span>
+              <div class="product-info__images">
+                <a class="product-info__content-link" href="#">
+                  <svg width="20" height="20">
+                    <title>Products</title>
+                    <style>
+                      tspan {
+                        white-space: pre
+                      }
+
+                      .shp0 {
+                        fill: #a3bbc8
+                      }
+                    </style>
+                    <g id="Products">
+                      <g id="Items">
+                        <g id="Item 2">
+                          <path id="Forma 1" class="shp0"
+                            d="M19.45 16.8L14.86 12.21C14.18 13.27 13.27 14.18 12.21 14.86L16.8 19.45C17.53 20.18 18.72 20.18 19.45 19.45C20.18 18.72 20.18 17.53 19.45 16.8ZM15 7.5C15 3.36 11.64 0 7.5 0C3.36 0 0 3.36 0 7.5C0 11.64 3.36 15 7.5 15C11.64 15 15 11.64 15 7.5ZM7.5 13.12C4.4 13.12 1.87 10.6 1.87 7.5C1.87 4.4 4.4 1.87 7.5 1.87C10.6 1.87 13.12 4.4 13.12 7.5C13.12 10.6 10.6 13.12 7.5 13.12ZM3.12 7.5L4.37 7.5C4.37 5.78 5.78 4.37 7.5 4.37L7.5 3.12C5.09 3.12 3.12 5.09 3.12 7.5Z" />
+                        </g>
+                      </g>
+                    </g>
+                  </svg>
+                </a>
+                <a class="product-info__content-link" href="#">
+                  <svg width="22" height="20">
+                    <title>Products</title>
+                    <style>
+                      tspan {
+                        white-space: pre
+                      }
+
+                      .shp0 {
+                        fill: #a3bbc8
+                      }
+                    </style>
+                    <g id="Products">
+                      <g id="Items">
+                        <g id="Item 2">
+                          <path id="Forma 1" class="shp0"
+                            d="M0.81 1.63L3.15 1.63L6.47 13.67C6.57 14.02 6.89 14.26 7.26 14.26L17.47 14.26C17.8 14.26 18.08 14.07 18.22 13.78L21.93 5.22C22.04 4.96 22.02 4.67 21.87 4.44C21.72 4.21 21.46 4.07 21.19 4.07L9.9 4.07C9.45 4.07 9.09 4.44 9.09 4.89C9.09 5.34 9.45 5.71 9.9 5.71L19.94 5.71L16.93 12.63L7.87 12.63L4.54 0.6C4.45 0.24 4.12 0 3.76 0L0.81 0C0.37 0 0 0.37 0 0.81C0 1.26 0.37 1.63 0.81 1.63ZM6.48 20C7.5 20 8.33 19.17 8.33 18.15C8.33 17.13 7.5 16.3 6.48 16.3C5.47 16.3 4.64 17.13 4.64 18.15C4.64 19.17 5.47 20 6.48 20ZM18.01 20C18.05 20 18.11 20 18.15 20C18.64 19.96 19.09 19.74 19.41 19.36C19.74 18.99 19.89 18.52 19.86 18.02C19.79 17.01 18.91 16.23 17.89 16.3C16.87 16.37 16.11 17.27 16.18 18.27C16.25 19.24 17.05 20 18.01 20Z" />
+                        </g>
+                      </g>
+                    </g>
+                  </svg>
+                </a>
+                <a class="product-info__content-link" href="#">
+                  <svg width="22" height="18">
+                    <title>Products</title>
+                    <style>
+                      tspan {
+                        white-space: pre
+                      }
+
+                      .shp0 {
+                        fill: #a3bbc8
+                      }
+                    </style>
+                    <g id="Products">
+                      <g id="Items">
+                        <g id="Item 2">
+                          <path id="Forma 1" class="shp0"
+                            d="M21.99 5.82C21.91 4.27 21.25 2.81 20.14 1.72C19.02 0.61 17.55 0 16 0C13.69 0 12.05 1.78 11.18 2.74C11.13 2.8 11.07 2.86 11.02 2.91C10.99 2.88 10.96 2.85 10.94 2.82C10.13 1.9 8.46 0 6 0C4.45 0 2.98 0.61 1.86 1.72C0.75 2.81 0.09 4.27 0.01 5.82C-0.07 7.36 0.32 8.7 1.28 10.16C2.14 11.47 4.38 13.53 6.04 14.91C7.75 16.32 9.99 18 11.01 18C12.04 18 14.28 16.32 15.97 14.91C17.62 13.54 19.85 11.48 20.72 10.16C21.37 9.17 22.1 7.79 21.99 5.82ZM19.61 9.43C18.98 10.39 17.2 12.17 15.18 13.85C12.78 15.85 11.35 16.64 11.01 16.67C10.67 16.64 9.24 15.84 6.82 13.83C4.79 12.15 3.01 10.38 2.39 9.43C1.59 8.22 1.27 7.13 1.33 5.89C1.47 3.37 3.56 1.32 6 1.32C7.86 1.32 9.21 2.86 9.94 3.69C10.37 4.18 10.6 4.45 11 4.45C11.41 4.45 11.67 4.16 12.15 3.64C12.94 2.77 14.27 1.32 16 1.32C18.44 1.32 20.53 3.37 20.67 5.89C20.74 7.15 20.42 8.2 19.61 9.43Z" />
+                        </g>
+                      </g>
+                    </g>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="product-info__content-item">
+              <img class="product-info__content-img" src="images/product/3.png" alt="">
+              <h4 class="product-info__content-title">White chair</h4>
+              <span class="product-info__price">$29.00</span>
+              <div class="product-info__images">
+                <a class="product-info__content-link" href="#">
+                  <svg width="20" height="20">
+                    <title>Products</title>
+                    <style>
+                      tspan {
+                        white-space: pre
+                      }
+
+                      .shp0 {
+                        fill: #a3bbc8
+                      }
+                    </style>
+                    <g id="Products">
+                      <g id="Items">
+                        <g id="Item 2">
+                          <path id="Forma 1" class="shp0"
+                            d="M19.45 16.8L14.86 12.21C14.18 13.27 13.27 14.18 12.21 14.86L16.8 19.45C17.53 20.18 18.72 20.18 19.45 19.45C20.18 18.72 20.18 17.53 19.45 16.8ZM15 7.5C15 3.36 11.64 0 7.5 0C3.36 0 0 3.36 0 7.5C0 11.64 3.36 15 7.5 15C11.64 15 15 11.64 15 7.5ZM7.5 13.12C4.4 13.12 1.87 10.6 1.87 7.5C1.87 4.4 4.4 1.87 7.5 1.87C10.6 1.87 13.12 4.4 13.12 7.5C13.12 10.6 10.6 13.12 7.5 13.12ZM3.12 7.5L4.37 7.5C4.37 5.78 5.78 4.37 7.5 4.37L7.5 3.12C5.09 3.12 3.12 5.09 3.12 7.5Z" />
+                        </g>
+                      </g>
+                    </g>
+                  </svg>
+                </a>
+                <a class="product-info__content-link" href="#">
+                  <svg width="22" height="20">
+                    <title>Products</title>
+                    <style>
+                      tspan {
+                        white-space: pre
+                      }
+
+                      .shp0 {
+                        fill: #a3bbc8
+                      }
+                    </style>
+                    <g id="Products">
+                      <g id="Items">
+                        <g id="Item 2">
+                          <path id="Forma 1" class="shp0"
+                            d="M0.81 1.63L3.15 1.63L6.47 13.67C6.57 14.02 6.89 14.26 7.26 14.26L17.47 14.26C17.8 14.26 18.08 14.07 18.22 13.78L21.93 5.22C22.04 4.96 22.02 4.67 21.87 4.44C21.72 4.21 21.46 4.07 21.19 4.07L9.9 4.07C9.45 4.07 9.09 4.44 9.09 4.89C9.09 5.34 9.45 5.71 9.9 5.71L19.94 5.71L16.93 12.63L7.87 12.63L4.54 0.6C4.45 0.24 4.12 0 3.76 0L0.81 0C0.37 0 0 0.37 0 0.81C0 1.26 0.37 1.63 0.81 1.63ZM6.48 20C7.5 20 8.33 19.17 8.33 18.15C8.33 17.13 7.5 16.3 6.48 16.3C5.47 16.3 4.64 17.13 4.64 18.15C4.64 19.17 5.47 20 6.48 20ZM18.01 20C18.05 20 18.11 20 18.15 20C18.64 19.96 19.09 19.74 19.41 19.36C19.74 18.99 19.89 18.52 19.86 18.02C19.79 17.01 18.91 16.23 17.89 16.3C16.87 16.37 16.11 17.27 16.18 18.27C16.25 19.24 17.05 20 18.01 20Z" />
+                        </g>
+                      </g>
+                    </g>
+                  </svg>
+                </a>
+                <a class="product-info__content-link" href="#">
+                  <svg width="22" height="18">
+                    <title>Products</title>
+                    <style>
+                      tspan {
+                        white-space: pre
+                      }
+
+                      .shp0 {
+                        fill: #a3bbc8
+                      }
+                    </style>
+                    <g id="Products">
+                      <g id="Items">
+                        <g id="Item 2">
+                          <path id="Forma 1" class="shp0"
+                            d="M21.99 5.82C21.91 4.27 21.25 2.81 20.14 1.72C19.02 0.61 17.55 0 16 0C13.69 0 12.05 1.78 11.18 2.74C11.13 2.8 11.07 2.86 11.02 2.91C10.99 2.88 10.96 2.85 10.94 2.82C10.13 1.9 8.46 0 6 0C4.45 0 2.98 0.61 1.86 1.72C0.75 2.81 0.09 4.27 0.01 5.82C-0.07 7.36 0.32 8.7 1.28 10.16C2.14 11.47 4.38 13.53 6.04 14.91C7.75 16.32 9.99 18 11.01 18C12.04 18 14.28 16.32 15.97 14.91C17.62 13.54 19.85 11.48 20.72 10.16C21.37 9.17 22.1 7.79 21.99 5.82ZM19.61 9.43C18.98 10.39 17.2 12.17 15.18 13.85C12.78 15.85 11.35 16.64 11.01 16.67C10.67 16.64 9.24 15.84 6.82 13.83C4.79 12.15 3.01 10.38 2.39 9.43C1.59 8.22 1.27 7.13 1.33 5.89C1.47 3.37 3.56 1.32 6 1.32C7.86 1.32 9.21 2.86 9.94 3.69C10.37 4.18 10.6 4.45 11 4.45C11.41 4.45 11.67 4.16 12.15 3.64C12.94 2.77 14.27 1.32 16 1.32C18.44 1.32 20.53 3.37 20.67 5.89C20.74 7.15 20.42 8.2 19.61 9.43Z" />
+                        </g>
+                      </g>
+                    </g>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="product-info__content-item">
+              <img class="product-info__content-img" src="images/product/2.png" alt="">
+              <h4 class="product-info__content-title">Wooden chair</h4>
+              <span class="product-info__price">$29.00</span>
+              <div class="product-info__images">
+                <a class="product-info__content-link" href="#">
+                  <svg width="20" height="20">
+                    <title>Products</title>
+                    <style>
+                      tspan {
+                        white-space: pre
+                      }
+
+                      .shp0 {
+                        fill: #a3bbc8
+                      }
+                    </style>
+                    <g id="Products">
+                      <g id="Items">
+                        <g id="Item 2">
+                          <path id="Forma 1" class="shp0"
+                            d="M19.45 16.8L14.86 12.21C14.18 13.27 13.27 14.18 12.21 14.86L16.8 19.45C17.53 20.18 18.72 20.18 19.45 19.45C20.18 18.72 20.18 17.53 19.45 16.8ZM15 7.5C15 3.36 11.64 0 7.5 0C3.36 0 0 3.36 0 7.5C0 11.64 3.36 15 7.5 15C11.64 15 15 11.64 15 7.5ZM7.5 13.12C4.4 13.12 1.87 10.6 1.87 7.5C1.87 4.4 4.4 1.87 7.5 1.87C10.6 1.87 13.12 4.4 13.12 7.5C13.12 10.6 10.6 13.12 7.5 13.12ZM3.12 7.5L4.37 7.5C4.37 5.78 5.78 4.37 7.5 4.37L7.5 3.12C5.09 3.12 3.12 5.09 3.12 7.5Z" />
+                        </g>
+                      </g>
+                    </g>
+                  </svg>
+                </a>
+                <a class="product-info__content-link" href="#">
+                  <svg width="22" height="20">
+                    <title>Products</title>
+                    <style>
+                      tspan {
+                        white-space: pre
+                      }
+
+                      .shp0 {
+                        fill: #a3bbc8
+                      }
+                    </style>
+                    <g id="Products">
+                      <g id="Items">
+                        <g id="Item 2">
+                          <path id="Forma 1" class="shp0"
+                            d="M0.81 1.63L3.15 1.63L6.47 13.67C6.57 14.02 6.89 14.26 7.26 14.26L17.47 14.26C17.8 14.26 18.08 14.07 18.22 13.78L21.93 5.22C22.04 4.96 22.02 4.67 21.87 4.44C21.72 4.21 21.46 4.07 21.19 4.07L9.9 4.07C9.45 4.07 9.09 4.44 9.09 4.89C9.09 5.34 9.45 5.71 9.9 5.71L19.94 5.71L16.93 12.63L7.87 12.63L4.54 0.6C4.45 0.24 4.12 0 3.76 0L0.81 0C0.37 0 0 0.37 0 0.81C0 1.26 0.37 1.63 0.81 1.63ZM6.48 20C7.5 20 8.33 19.17 8.33 18.15C8.33 17.13 7.5 16.3 6.48 16.3C5.47 16.3 4.64 17.13 4.64 18.15C4.64 19.17 5.47 20 6.48 20ZM18.01 20C18.05 20 18.11 20 18.15 20C18.64 19.96 19.09 19.74 19.41 19.36C19.74 18.99 19.89 18.52 19.86 18.02C19.79 17.01 18.91 16.23 17.89 16.3C16.87 16.37 16.11 17.27 16.18 18.27C16.25 19.24 17.05 20 18.01 20Z" />
+                        </g>
+                      </g>
+                    </g>
+                  </svg>
+                </a>
+                <a class="product-info__content-link" href="#">
+                  <svg width="22" height="18">
+                    <title>Products</title>
+                    <style>
+                      tspan {
+                        white-space: pre
+                      }
+
+                      .shp0 {
+                        fill: #a3bbc8
+                      }
+                    </style>
+                    <g id="Products">
+                      <g id="Items">
+                        <g id="Item 2">
+                          <path id="Forma 1" class="shp0"
+                            d="M21.99 5.82C21.91 4.27 21.25 2.81 20.14 1.72C19.02 0.61 17.55 0 16 0C13.69 0 12.05 1.78 11.18 2.74C11.13 2.8 11.07 2.86 11.02 2.91C10.99 2.88 10.96 2.85 10.94 2.82C10.13 1.9 8.46 0 6 0C4.45 0 2.98 0.61 1.86 1.72C0.75 2.81 0.09 4.27 0.01 5.82C-0.07 7.36 0.32 8.7 1.28 10.16C2.14 11.47 4.38 13.53 6.04 14.91C7.75 16.32 9.99 18 11.01 18C12.04 18 14.28 16.32 15.97 14.91C17.62 13.54 19.85 11.48 20.72 10.16C21.37 9.17 22.1 7.79 21.99 5.82ZM19.61 9.43C18.98 10.39 17.2 12.17 15.18 13.85C12.78 15.85 11.35 16.64 11.01 16.67C10.67 16.64 9.24 15.84 6.82 13.83C4.79 12.15 3.01 10.38 2.39 9.43C1.59 8.22 1.27 7.13 1.33 5.89C1.47 3.37 3.56 1.32 6 1.32C7.86 1.32 9.21 2.86 9.94 3.69C10.37 4.18 10.6 4.45 11 4.45C11.41 4.45 11.67 4.16 12.15 3.64C12.94 2.77 14.27 1.32 16 1.32C18.44 1.32 20.53 3.37 20.67 5.89C20.74 7.15 20.42 8.2 19.61 9.43Z" />
+                        </g>
+                      </g>
+                    </g>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="product-info__content-item">
+              <img class="product-info__content-img" src="images/product/3.png" alt="">
+              <h4 class="product-info__content-title">White chair</h4>
+              <span class="product-info__price">$29.00</span>
+              <div class="product-info__images">
+                <a class="product-info__content-link" href="#">
+                  <svg width="20" height="20">
+                    <title>Products</title>
+                    <style>
+                      tspan {
+                        white-space: pre
+                      }
+
+                      .shp0 {
+                        fill: #a3bbc8
+                      }
+                    </style>
+                    <g id="Products">
+                      <g id="Items">
+                        <g id="Item 2">
+                          <path id="Forma 1" class="shp0"
+                            d="M19.45 16.8L14.86 12.21C14.18 13.27 13.27 14.18 12.21 14.86L16.8 19.45C17.53 20.18 18.72 20.18 19.45 19.45C20.18 18.72 20.18 17.53 19.45 16.8ZM15 7.5C15 3.36 11.64 0 7.5 0C3.36 0 0 3.36 0 7.5C0 11.64 3.36 15 7.5 15C11.64 15 15 11.64 15 7.5ZM7.5 13.12C4.4 13.12 1.87 10.6 1.87 7.5C1.87 4.4 4.4 1.87 7.5 1.87C10.6 1.87 13.12 4.4 13.12 7.5C13.12 10.6 10.6 13.12 7.5 13.12ZM3.12 7.5L4.37 7.5C4.37 5.78 5.78 4.37 7.5 4.37L7.5 3.12C5.09 3.12 3.12 5.09 3.12 7.5Z" />
+                        </g>
+                      </g>
+                    </g>
+                  </svg>
+                </a>
+                <a class="product-info__content-link" href="#">
+                  <svg width="22" height="20">
+                    <title>Products</title>
+                    <style>
+                      tspan {
+                        white-space: pre
+                      }
+
+                      .shp0 {
+                        fill: #a3bbc8
+                      }
+                    </style>
+                    <g id="Products">
+                      <g id="Items">
+                        <g id="Item 2">
+                          <path id="Forma 1" class="shp0"
+                            d="M0.81 1.63L3.15 1.63L6.47 13.67C6.57 14.02 6.89 14.26 7.26 14.26L17.47 14.26C17.8 14.26 18.08 14.07 18.22 13.78L21.93 5.22C22.04 4.96 22.02 4.67 21.87 4.44C21.72 4.21 21.46 4.07 21.19 4.07L9.9 4.07C9.45 4.07 9.09 4.44 9.09 4.89C9.09 5.34 9.45 5.71 9.9 5.71L19.94 5.71L16.93 12.63L7.87 12.63L4.54 0.6C4.45 0.24 4.12 0 3.76 0L0.81 0C0.37 0 0 0.37 0 0.81C0 1.26 0.37 1.63 0.81 1.63ZM6.48 20C7.5 20 8.33 19.17 8.33 18.15C8.33 17.13 7.5 16.3 6.48 16.3C5.47 16.3 4.64 17.13 4.64 18.15C4.64 19.17 5.47 20 6.48 20ZM18.01 20C18.05 20 18.11 20 18.15 20C18.64 19.96 19.09 19.74 19.41 19.36C19.74 18.99 19.89 18.52 19.86 18.02C19.79 17.01 18.91 16.23 17.89 16.3C16.87 16.37 16.11 17.27 16.18 18.27C16.25 19.24 17.05 20 18.01 20Z" />
+                        </g>
+                      </g>
+                    </g>
+                  </svg>
+                </a>
+                <a class="product-info__content-link" href="#">
+                  <svg width="22" height="18">
+                    <title>Products</title>
+                    <style>
+                      tspan {
+                        white-space: pre
+                      }
+
+                      .shp0 {
+                        fill: #a3bbc8
+                      }
+                    </style>
+                    <g id="Products">
+                      <g id="Items">
+                        <g id="Item 2">
+                          <path id="Forma 1" class="shp0"
+                            d="M21.99 5.82C21.91 4.27 21.25 2.81 20.14 1.72C19.02 0.61 17.55 0 16 0C13.69 0 12.05 1.78 11.18 2.74C11.13 2.8 11.07 2.86 11.02 2.91C10.99 2.88 10.96 2.85 10.94 2.82C10.13 1.9 8.46 0 6 0C4.45 0 2.98 0.61 1.86 1.72C0.75 2.81 0.09 4.27 0.01 5.82C-0.07 7.36 0.32 8.7 1.28 10.16C2.14 11.47 4.38 13.53 6.04 14.91C7.75 16.32 9.99 18 11.01 18C12.04 18 14.28 16.32 15.97 14.91C17.62 13.54 19.85 11.48 20.72 10.16C21.37 9.17 22.1 7.79 21.99 5.82ZM19.61 9.43C18.98 10.39 17.2 12.17 15.18 13.85C12.78 15.85 11.35 16.64 11.01 16.67C10.67 16.64 9.24 15.84 6.82 13.83C4.79 12.15 3.01 10.38 2.39 9.43C1.59 8.22 1.27 7.13 1.33 5.89C1.47 3.37 3.56 1.32 6 1.32C7.86 1.32 9.21 2.86 9.94 3.69C10.37 4.18 10.6 4.45 11 4.45C11.41 4.45 11.67 4.16 12.15 3.64C12.94 2.77 14.27 1.32 16 1.32C18.44 1.32 20.53 3.37 20.67 5.89C20.74 7.15 20.42 8.2 19.61 9.43Z" />
+                        </g>
+                      </g>
+                    </g>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="product-info__content-item">
+              <img class="product-info__content-img" src="images/product/2.png" alt="">
+              <h4 class="product-info__content-title">Wooden chair</h4>
+              <span class="product-info__price">$29.00</span>
+              <div class="product-info__images">
+                <a class="product-info__content-link" href="#">
+                  <svg width="20" height="20">
+                    <title>Products</title>
+                    <style>
+                      tspan {
+                        white-space: pre
+                      }
+
+                      .shp0 {
+                        fill: #a3bbc8
+                      }
+                    </style>
+                    <g id="Products">
+                      <g id="Items">
+                        <g id="Item 2">
+                          <path id="Forma 1" class="shp0"
+                            d="M19.45 16.8L14.86 12.21C14.18 13.27 13.27 14.18 12.21 14.86L16.8 19.45C17.53 20.18 18.72 20.18 19.45 19.45C20.18 18.72 20.18 17.53 19.45 16.8ZM15 7.5C15 3.36 11.64 0 7.5 0C3.36 0 0 3.36 0 7.5C0 11.64 3.36 15 7.5 15C11.64 15 15 11.64 15 7.5ZM7.5 13.12C4.4 13.12 1.87 10.6 1.87 7.5C1.87 4.4 4.4 1.87 7.5 1.87C10.6 1.87 13.12 4.4 13.12 7.5C13.12 10.6 10.6 13.12 7.5 13.12ZM3.12 7.5L4.37 7.5C4.37 5.78 5.78 4.37 7.5 4.37L7.5 3.12C5.09 3.12 3.12 5.09 3.12 7.5Z" />
+                        </g>
+                      </g>
+                    </g>
+                  </svg>
+                </a>
+                <a class="product-info__content-link" href="#">
+                  <svg width="22" height="20">
+                    <title>Products</title>
+                    <style>
+                      tspan {
+                        white-space: pre
+                      }
+
+                      .shp0 {
+                        fill: #a3bbc8
+                      }
+                    </style>
+                    <g id="Products">
+                      <g id="Items">
+                        <g id="Item 2">
+                          <path id="Forma 1" class="shp0"
+                            d="M0.81 1.63L3.15 1.63L6.47 13.67C6.57 14.02 6.89 14.26 7.26 14.26L17.47 14.26C17.8 14.26 18.08 14.07 18.22 13.78L21.93 5.22C22.04 4.96 22.02 4.67 21.87 4.44C21.72 4.21 21.46 4.07 21.19 4.07L9.9 4.07C9.45 4.07 9.09 4.44 9.09 4.89C9.09 5.34 9.45 5.71 9.9 5.71L19.94 5.71L16.93 12.63L7.87 12.63L4.54 0.6C4.45 0.24 4.12 0 3.76 0L0.81 0C0.37 0 0 0.37 0 0.81C0 1.26 0.37 1.63 0.81 1.63ZM6.48 20C7.5 20 8.33 19.17 8.33 18.15C8.33 17.13 7.5 16.3 6.48 16.3C5.47 16.3 4.64 17.13 4.64 18.15C4.64 19.17 5.47 20 6.48 20ZM18.01 20C18.05 20 18.11 20 18.15 20C18.64 19.96 19.09 19.74 19.41 19.36C19.74 18.99 19.89 18.52 19.86 18.02C19.79 17.01 18.91 16.23 17.89 16.3C16.87 16.37 16.11 17.27 16.18 18.27C16.25 19.24 17.05 20 18.01 20Z" />
+                        </g>
+                      </g>
+                    </g>
+                  </svg>
+                </a>
+                <a class="product-info__content-link" href="#">
+                  <svg width="22" height="18">
+                    <title>Products</title>
+                    <style>
+                      tspan {
+                        white-space: pre
+                      }
+
+                      .shp0 {
+                        fill: #a3bbc8
+                      }
+                    </style>
+                    <g id="Products">
+                      <g id="Items">
+                        <g id="Item 2">
+                          <path id="Forma 1" class="shp0"
+                            d="M21.99 5.82C21.91 4.27 21.25 2.81 20.14 1.72C19.02 0.61 17.55 0 16 0C13.69 0 12.05 1.78 11.18 2.74C11.13 2.8 11.07 2.86 11.02 2.91C10.99 2.88 10.96 2.85 10.94 2.82C10.13 1.9 8.46 0 6 0C4.45 0 2.98 0.61 1.86 1.72C0.75 2.81 0.09 4.27 0.01 5.82C-0.07 7.36 0.32 8.7 1.28 10.16C2.14 11.47 4.38 13.53 6.04 14.91C7.75 16.32 9.99 18 11.01 18C12.04 18 14.28 16.32 15.97 14.91C17.62 13.54 19.85 11.48 20.72 10.16C21.37 9.17 22.1 7.79 21.99 5.82ZM19.61 9.43C18.98 10.39 17.2 12.17 15.18 13.85C12.78 15.85 11.35 16.64 11.01 16.67C10.67 16.64 9.24 15.84 6.82 13.83C4.79 12.15 3.01 10.38 2.39 9.43C1.59 8.22 1.27 7.13 1.33 5.89C1.47 3.37 3.56 1.32 6 1.32C7.86 1.32 9.21 2.86 9.94 3.69C10.37 4.18 10.6 4.45 11 4.45C11.41 4.45 11.67 4.16 12.15 3.64C12.94 2.77 14.27 1.32 16 1.32C18.44 1.32 20.53 3.37 20.67 5.89C20.74 7.15 20.42 8.2 19.61 9.43Z" />
+                        </g>
+                      </g>
+                    </g>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="product-info__content-item">
+              <img class="product-info__content-img" src="images/product/3.png" alt="">
+              <h4 class="product-info__content-title">White chair</h4>
+              <span class="product-info__price">$29.00</span>
+              <div class="product-info__images">
+                <a class="product-info__content-link" href="#">
+                  <svg width="20" height="20">
+                    <title>Products</title>
+                    <style>
+                      tspan {
+                        white-space: pre
+                      }
+
+                      .shp0 {
+                        fill: #a3bbc8
+                      }
+                    </style>
+                    <g id="Products">
+                      <g id="Items">
+                        <g id="Item 2">
+                          <path id="Forma 1" class="shp0"
+                            d="M19.45 16.8L14.86 12.21C14.18 13.27 13.27 14.18 12.21 14.86L16.8 19.45C17.53 20.18 18.72 20.18 19.45 19.45C20.18 18.72 20.18 17.53 19.45 16.8ZM15 7.5C15 3.36 11.64 0 7.5 0C3.36 0 0 3.36 0 7.5C0 11.64 3.36 15 7.5 15C11.64 15 15 11.64 15 7.5ZM7.5 13.12C4.4 13.12 1.87 10.6 1.87 7.5C1.87 4.4 4.4 1.87 7.5 1.87C10.6 1.87 13.12 4.4 13.12 7.5C13.12 10.6 10.6 13.12 7.5 13.12ZM3.12 7.5L4.37 7.5C4.37 5.78 5.78 4.37 7.5 4.37L7.5 3.12C5.09 3.12 3.12 5.09 3.12 7.5Z" />
+                        </g>
+                      </g>
+                    </g>
+                  </svg>
+                </a>
+                <a class="product-info__content-link" href="#">
+                  <svg width="22" height="20">
+                    <title>Products</title>
+                    <style>
+                      tspan {
+                        white-space: pre
+                      }
+
+                      .shp0 {
+                        fill: #a3bbc8
+                      }
+                    </style>
+                    <g id="Products">
+                      <g id="Items">
+                        <g id="Item 2">
+                          <path id="Forma 1" class="shp0"
+                            d="M0.81 1.63L3.15 1.63L6.47 13.67C6.57 14.02 6.89 14.26 7.26 14.26L17.47 14.26C17.8 14.26 18.08 14.07 18.22 13.78L21.93 5.22C22.04 4.96 22.02 4.67 21.87 4.44C21.72 4.21 21.46 4.07 21.19 4.07L9.9 4.07C9.45 4.07 9.09 4.44 9.09 4.89C9.09 5.34 9.45 5.71 9.9 5.71L19.94 5.71L16.93 12.63L7.87 12.63L4.54 0.6C4.45 0.24 4.12 0 3.76 0L0.81 0C0.37 0 0 0.37 0 0.81C0 1.26 0.37 1.63 0.81 1.63ZM6.48 20C7.5 20 8.33 19.17 8.33 18.15C8.33 17.13 7.5 16.3 6.48 16.3C5.47 16.3 4.64 17.13 4.64 18.15C4.64 19.17 5.47 20 6.48 20ZM18.01 20C18.05 20 18.11 20 18.15 20C18.64 19.96 19.09 19.74 19.41 19.36C19.74 18.99 19.89 18.52 19.86 18.02C19.79 17.01 18.91 16.23 17.89 16.3C16.87 16.37 16.11 17.27 16.18 18.27C16.25 19.24 17.05 20 18.01 20Z" />
+                        </g>
+                      </g>
+                    </g>
+                  </svg>
+                </a>
+                <a class="product-info__content-link" href="#">
+                  <svg width="22" height="18">
+                    <title>Products</title>
+                    <style>
+                      tspan {
+                        white-space: pre
+                      }
+
+                      .shp0 {
+                        fill: #a3bbc8
+                      }
+                    </style>
+                    <g id="Products">
+                      <g id="Items">
+                        <g id="Item 2">
+                          <path id="Forma 1" class="shp0"
+                            d="M21.99 5.82C21.91 4.27 21.25 2.81 20.14 1.72C19.02 0.61 17.55 0 16 0C13.69 0 12.05 1.78 11.18 2.74C11.13 2.8 11.07 2.86 11.02 2.91C10.99 2.88 10.96 2.85 10.94 2.82C10.13 1.9 8.46 0 6 0C4.45 0 2.98 0.61 1.86 1.72C0.75 2.81 0.09 4.27 0.01 5.82C-0.07 7.36 0.32 8.7 1.28 10.16C2.14 11.47 4.38 13.53 6.04 14.91C7.75 16.32 9.99 18 11.01 18C12.04 18 14.28 16.32 15.97 14.91C17.62 13.54 19.85 11.48 20.72 10.16C21.37 9.17 22.1 7.79 21.99 5.82ZM19.61 9.43C18.98 10.39 17.2 12.17 15.18 13.85C12.78 15.85 11.35 16.64 11.01 16.67C10.67 16.64 9.24 15.84 6.82 13.83C4.79 12.15 3.01 10.38 2.39 9.43C1.59 8.22 1.27 7.13 1.33 5.89C1.47 3.37 3.56 1.32 6 1.32C7.86 1.32 9.21 2.86 9.94 3.69C10.37 4.18 10.6 4.45 11 4.45C11.41 4.45 11.67 4.16 12.15 3.64C12.94 2.77 14.27 1.32 16 1.32C18.44 1.32 20.53 3.37 20.67 5.89C20.74 7.15 20.42 8.2 19.61 9.43Z" />
+                        </g>
+                      </g>
+                    </g>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="product-info__content-item">
+              <img class="product-info__content-img" src="images/product/2.png" alt="">
+              <h4 class="product-info__content-title">Wooden chair</h4>
+              <span class="product-info__price">$29.00</span>
+              <div class="product-info__images">
+                <a class="product-info__content-link" href="#">
+                  <svg width="20" height="20">
+                    <title>Products</title>
+                    <style>
+                      tspan {
+                        white-space: pre
+                      }
+
+                      .shp0 {
+                        fill: #a3bbc8
+                      }
+                    </style>
+                    <g id="Products">
+                      <g id="Items">
+                        <g id="Item 2">
+                          <path id="Forma 1" class="shp0"
+                            d="M19.45 16.8L14.86 12.21C14.18 13.27 13.27 14.18 12.21 14.86L16.8 19.45C17.53 20.18 18.72 20.18 19.45 19.45C20.18 18.72 20.18 17.53 19.45 16.8ZM15 7.5C15 3.36 11.64 0 7.5 0C3.36 0 0 3.36 0 7.5C0 11.64 3.36 15 7.5 15C11.64 15 15 11.64 15 7.5ZM7.5 13.12C4.4 13.12 1.87 10.6 1.87 7.5C1.87 4.4 4.4 1.87 7.5 1.87C10.6 1.87 13.12 4.4 13.12 7.5C13.12 10.6 10.6 13.12 7.5 13.12ZM3.12 7.5L4.37 7.5C4.37 5.78 5.78 4.37 7.5 4.37L7.5 3.12C5.09 3.12 3.12 5.09 3.12 7.5Z" />
+                        </g>
+                      </g>
+                    </g>
+                  </svg>
+                </a>
+                <a class="product-info__content-link" href="#">
+                  <svg width="22" height="20">
+                    <title>Products</title>
+                    <style>
+                      tspan {
+                        white-space: pre
+                      }
+
+                      .shp0 {
+                        fill: #a3bbc8
+                      }
+                    </style>
+                    <g id="Products">
+                      <g id="Items">
+                        <g id="Item 2">
+                          <path id="Forma 1" class="shp0"
+                            d="M0.81 1.63L3.15 1.63L6.47 13.67C6.57 14.02 6.89 14.26 7.26 14.26L17.47 14.26C17.8 14.26 18.08 14.07 18.22 13.78L21.93 5.22C22.04 4.96 22.02 4.67 21.87 4.44C21.72 4.21 21.46 4.07 21.19 4.07L9.9 4.07C9.45 4.07 9.09 4.44 9.09 4.89C9.09 5.34 9.45 5.71 9.9 5.71L19.94 5.71L16.93 12.63L7.87 12.63L4.54 0.6C4.45 0.24 4.12 0 3.76 0L0.81 0C0.37 0 0 0.37 0 0.81C0 1.26 0.37 1.63 0.81 1.63ZM6.48 20C7.5 20 8.33 19.17 8.33 18.15C8.33 17.13 7.5 16.3 6.48 16.3C5.47 16.3 4.64 17.13 4.64 18.15C4.64 19.17 5.47 20 6.48 20ZM18.01 20C18.05 20 18.11 20 18.15 20C18.64 19.96 19.09 19.74 19.41 19.36C19.74 18.99 19.89 18.52 19.86 18.02C19.79 17.01 18.91 16.23 17.89 16.3C16.87 16.37 16.11 17.27 16.18 18.27C16.25 19.24 17.05 20 18.01 20Z" />
+                        </g>
+                      </g>
+                    </g>
+                  </svg>
+                </a>
+                <a class="product-info__content-link" href="#">
+                  <svg width="22" height="18">
+                    <title>Products</title>
+                    <style>
+                      tspan {
+                        white-space: pre
+                      }
+
+                      .shp0 {
+                        fill: #a3bbc8
+                      }
+                    </style>
+                    <g id="Products">
+                      <g id="Items">
+                        <g id="Item 2">
+                          <path id="Forma 1" class="shp0"
+                            d="M21.99 5.82C21.91 4.27 21.25 2.81 20.14 1.72C19.02 0.61 17.55 0 16 0C13.69 0 12.05 1.78 11.18 2.74C11.13 2.8 11.07 2.86 11.02 2.91C10.99 2.88 10.96 2.85 10.94 2.82C10.13 1.9 8.46 0 6 0C4.45 0 2.98 0.61 1.86 1.72C0.75 2.81 0.09 4.27 0.01 5.82C-0.07 7.36 0.32 8.7 1.28 10.16C2.14 11.47 4.38 13.53 6.04 14.91C7.75 16.32 9.99 18 11.01 18C12.04 18 14.28 16.32 15.97 14.91C17.62 13.54 19.85 11.48 20.72 10.16C21.37 9.17 22.1 7.79 21.99 5.82ZM19.61 9.43C18.98 10.39 17.2 12.17 15.18 13.85C12.78 15.85 11.35 16.64 11.01 16.67C10.67 16.64 9.24 15.84 6.82 13.83C4.79 12.15 3.01 10.38 2.39 9.43C1.59 8.22 1.27 7.13 1.33 5.89C1.47 3.37 3.56 1.32 6 1.32C7.86 1.32 9.21 2.86 9.94 3.69C10.37 4.18 10.6 4.45 11 4.45C11.41 4.45 11.67 4.16 12.15 3.64C12.94 2.77 14.27 1.32 16 1.32C18.44 1.32 20.53 3.37 20.67 5.89C20.74 7.15 20.42 8.2 19.61 9.43Z" />
+                        </g>
+                      </g>
+                    </g>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="product-info__content-item">
+              <img class="product-info__content-img" src="images/product/3.png" alt="">
+              <h4 class="product-info__content-title">White chair</h4>
+              <span class="product-info__price">$29.00</span>
+              <div class="product-info__images">
+                <a class="product-info__content-link" href="#">
+                  <svg width="20" height="20">
+                    <title>Products</title>
+                    <style>
+                      tspan {
+                        white-space: pre
+                      }
+
+                      .shp0 {
+                        fill: #a3bbc8
+                      }
+                    </style>
+                    <g id="Products">
+                      <g id="Items">
+                        <g id="Item 2">
+                          <path id="Forma 1" class="shp0"
+                            d="M19.45 16.8L14.86 12.21C14.18 13.27 13.27 14.18 12.21 14.86L16.8 19.45C17.53 20.18 18.72 20.18 19.45 19.45C20.18 18.72 20.18 17.53 19.45 16.8ZM15 7.5C15 3.36 11.64 0 7.5 0C3.36 0 0 3.36 0 7.5C0 11.64 3.36 15 7.5 15C11.64 15 15 11.64 15 7.5ZM7.5 13.12C4.4 13.12 1.87 10.6 1.87 7.5C1.87 4.4 4.4 1.87 7.5 1.87C10.6 1.87 13.12 4.4 13.12 7.5C13.12 10.6 10.6 13.12 7.5 13.12ZM3.12 7.5L4.37 7.5C4.37 5.78 5.78 4.37 7.5 4.37L7.5 3.12C5.09 3.12 3.12 5.09 3.12 7.5Z" />
+                        </g>
+                      </g>
+                    </g>
+                  </svg>
+                </a>
+                <a class="product-info__content-link" href="#">
+                  <svg width="22" height="20">
+                    <title>Products</title>
+                    <style>
+                      tspan {
+                        white-space: pre
+                      }
+
+                      .shp0 {
+                        fill: #a3bbc8
+                      }
+                    </style>
+                    <g id="Products">
+                      <g id="Items">
+                        <g id="Item 2">
+                          <path id="Forma 1" class="shp0"
+                            d="M0.81 1.63L3.15 1.63L6.47 13.67C6.57 14.02 6.89 14.26 7.26 14.26L17.47 14.26C17.8 14.26 18.08 14.07 18.22 13.78L21.93 5.22C22.04 4.96 22.02 4.67 21.87 4.44C21.72 4.21 21.46 4.07 21.19 4.07L9.9 4.07C9.45 4.07 9.09 4.44 9.09 4.89C9.09 5.34 9.45 5.71 9.9 5.71L19.94 5.71L16.93 12.63L7.87 12.63L4.54 0.6C4.45 0.24 4.12 0 3.76 0L0.81 0C0.37 0 0 0.37 0 0.81C0 1.26 0.37 1.63 0.81 1.63ZM6.48 20C7.5 20 8.33 19.17 8.33 18.15C8.33 17.13 7.5 16.3 6.48 16.3C5.47 16.3 4.64 17.13 4.64 18.15C4.64 19.17 5.47 20 6.48 20ZM18.01 20C18.05 20 18.11 20 18.15 20C18.64 19.96 19.09 19.74 19.41 19.36C19.74 18.99 19.89 18.52 19.86 18.02C19.79 17.01 18.91 16.23 17.89 16.3C16.87 16.37 16.11 17.27 16.18 18.27C16.25 19.24 17.05 20 18.01 20Z" />
+                        </g>
+                      </g>
+                    </g>
+                  </svg>
+                </a>
+                <a class="product-info__content-link" href="#">
+                  <svg width="22" height="18">
+                    <title>Products</title>
+                    <style>
+                      tspan {
+                        white-space: pre
+                      }
+
+                      .shp0 {
+                        fill: #a3bbc8
+                      }
+                    </style>
+                    <g id="Products">
+                      <g id="Items">
+                        <g id="Item 2">
+                          <path id="Forma 1" class="shp0"
+                            d="M21.99 5.82C21.91 4.27 21.25 2.81 20.14 1.72C19.02 0.61 17.55 0 16 0C13.69 0 12.05 1.78 11.18 2.74C11.13 2.8 11.07 2.86 11.02 2.91C10.99 2.88 10.96 2.85 10.94 2.82C10.13 1.9 8.46 0 6 0C4.45 0 2.98 0.61 1.86 1.72C0.75 2.81 0.09 4.27 0.01 5.82C-0.07 7.36 0.32 8.7 1.28 10.16C2.14 11.47 4.38 13.53 6.04 14.91C7.75 16.32 9.99 18 11.01 18C12.04 18 14.28 16.32 15.97 14.91C17.62 13.54 19.85 11.48 20.72 10.16C21.37 9.17 22.1 7.79 21.99 5.82ZM19.61 9.43C18.98 10.39 17.2 12.17 15.18 13.85C12.78 15.85 11.35 16.64 11.01 16.67C10.67 16.64 9.24 15.84 6.82 13.83C4.79 12.15 3.01 10.38 2.39 9.43C1.59 8.22 1.27 7.13 1.33 5.89C1.47 3.37 3.56 1.32 6 1.32C7.86 1.32 9.21 2.86 9.94 3.69C10.37 4.18 10.6 4.45 11 4.45C11.41 4.45 11.67 4.16 12.15 3.64C12.94 2.77 14.27 1.32 16 1.32C18.44 1.32 20.53 3.37 20.67 5.89C20.74 7.15 20.42 8.2 19.61 9.43Z" />
+                        </g>
+                      </g>
+                    </g>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="product-info__content-item">
+              <img class="product-info__content-img" src="images/product/2.png" alt="">
+              <h4 class="product-info__content-title">Wooden chair</h4>
+              <span class="product-info__price">$29.00</span>
+              <div class="product-info__images">
+                <a class="product-info__content-link" href="#">
+                  <svg width="20" height="20">
+                    <title>Products</title>
+                    <style>
+                      tspan {
+                        white-space: pre
+                      }
+
+                      .shp0 {
+                        fill: #a3bbc8
+                      }
+                    </style>
+                    <g id="Products">
+                      <g id="Items">
+                        <g id="Item 2">
+                          <path id="Forma 1" class="shp0"
+                            d="M19.45 16.8L14.86 12.21C14.18 13.27 13.27 14.18 12.21 14.86L16.8 19.45C17.53 20.18 18.72 20.18 19.45 19.45C20.18 18.72 20.18 17.53 19.45 16.8ZM15 7.5C15 3.36 11.64 0 7.5 0C3.36 0 0 3.36 0 7.5C0 11.64 3.36 15 7.5 15C11.64 15 15 11.64 15 7.5ZM7.5 13.12C4.4 13.12 1.87 10.6 1.87 7.5C1.87 4.4 4.4 1.87 7.5 1.87C10.6 1.87 13.12 4.4 13.12 7.5C13.12 10.6 10.6 13.12 7.5 13.12ZM3.12 7.5L4.37 7.5C4.37 5.78 5.78 4.37 7.5 4.37L7.5 3.12C5.09 3.12 3.12 5.09 3.12 7.5Z" />
+                        </g>
+                      </g>
+                    </g>
+                  </svg>
+                </a>
+                <a class="product-info__content-link" href="#">
+                  <svg width="22" height="20">
+                    <title>Products</title>
+                    <style>
+                      tspan {
+                        white-space: pre
+                      }
+
+                      .shp0 {
+                        fill: #a3bbc8
+                      }
+                    </style>
+                    <g id="Products">
+                      <g id="Items">
+                        <g id="Item 2">
+                          <path id="Forma 1" class="shp0"
+                            d="M0.81 1.63L3.15 1.63L6.47 13.67C6.57 14.02 6.89 14.26 7.26 14.26L17.47 14.26C17.8 14.26 18.08 14.07 18.22 13.78L21.93 5.22C22.04 4.96 22.02 4.67 21.87 4.44C21.72 4.21 21.46 4.07 21.19 4.07L9.9 4.07C9.45 4.07 9.09 4.44 9.09 4.89C9.09 5.34 9.45 5.71 9.9 5.71L19.94 5.71L16.93 12.63L7.87 12.63L4.54 0.6C4.45 0.24 4.12 0 3.76 0L0.81 0C0.37 0 0 0.37 0 0.81C0 1.26 0.37 1.63 0.81 1.63ZM6.48 20C7.5 20 8.33 19.17 8.33 18.15C8.33 17.13 7.5 16.3 6.48 16.3C5.47 16.3 4.64 17.13 4.64 18.15C4.64 19.17 5.47 20 6.48 20ZM18.01 20C18.05 20 18.11 20 18.15 20C18.64 19.96 19.09 19.74 19.41 19.36C19.74 18.99 19.89 18.52 19.86 18.02C19.79 17.01 18.91 16.23 17.89 16.3C16.87 16.37 16.11 17.27 16.18 18.27C16.25 19.24 17.05 20 18.01 20Z" />
+                        </g>
+                      </g>
+                    </g>
+                  </svg>
+                </a>
+                <a class="product-info__content-link" href="#">
+                  <svg width="22" height="18">
+                    <title>Products</title>
+                    <style>
+                      tspan {
+                        white-space: pre
+                      }
+
+                      .shp0 {
+                        fill: #a3bbc8
+                      }
+                    </style>
+                    <g id="Products">
+                      <g id="Items">
+                        <g id="Item 2">
+                          <path id="Forma 1" class="shp0"
+                            d="M21.99 5.82C21.91 4.27 21.25 2.81 20.14 1.72C19.02 0.61 17.55 0 16 0C13.69 0 12.05 1.78 11.18 2.74C11.13 2.8 11.07 2.86 11.02 2.91C10.99 2.88 10.96 2.85 10.94 2.82C10.13 1.9 8.46 0 6 0C4.45 0 2.98 0.61 1.86 1.72C0.75 2.81 0.09 4.27 0.01 5.82C-0.07 7.36 0.32 8.7 1.28 10.16C2.14 11.47 4.38 13.53 6.04 14.91C7.75 16.32 9.99 18 11.01 18C12.04 18 14.28 16.32 15.97 14.91C17.62 13.54 19.85 11.48 20.72 10.16C21.37 9.17 22.1 7.79 21.99 5.82ZM19.61 9.43C18.98 10.39 17.2 12.17 15.18 13.85C12.78 15.85 11.35 16.64 11.01 16.67C10.67 16.64 9.24 15.84 6.82 13.83C4.79 12.15 3.01 10.38 2.39 9.43C1.59 8.22 1.27 7.13 1.33 5.89C1.47 3.37 3.56 1.32 6 1.32C7.86 1.32 9.21 2.86 9.94 3.69C10.37 4.18 10.6 4.45 11 4.45C11.41 4.45 11.67 4.16 12.15 3.64C12.94 2.77 14.27 1.32 16 1.32C18.44 1.32 20.53 3.37 20.67 5.89C20.74 7.15 20.42 8.2 19.61 9.43Z" />
+                        </g>
+                      </g>
+                    </g>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="product-info__content-item">
+              <img class="product-info__content-img" src="images/product/3.png" alt="">
+              <h4 class="product-info__content-title">White chair</h4>
+              <span class="product-info__price">$29.00</span>
+              <div class="product-info__images">
+                <a class="product-info__content-link" href="#">
+                  <svg width="20" height="20">
+                    <title>Products</title>
+                    <style>
+                      tspan {
+                        white-space: pre
+                      }
+
+                      .shp0 {
+                        fill: #a3bbc8
+                      }
+                    </style>
+                    <g id="Products">
+                      <g id="Items">
+                        <g id="Item 2">
+                          <path id="Forma 1" class="shp0"
+                            d="M19.45 16.8L14.86 12.21C14.18 13.27 13.27 14.18 12.21 14.86L16.8 19.45C17.53 20.18 18.72 20.18 19.45 19.45C20.18 18.72 20.18 17.53 19.45 16.8ZM15 7.5C15 3.36 11.64 0 7.5 0C3.36 0 0 3.36 0 7.5C0 11.64 3.36 15 7.5 15C11.64 15 15 11.64 15 7.5ZM7.5 13.12C4.4 13.12 1.87 10.6 1.87 7.5C1.87 4.4 4.4 1.87 7.5 1.87C10.6 1.87 13.12 4.4 13.12 7.5C13.12 10.6 10.6 13.12 7.5 13.12ZM3.12 7.5L4.37 7.5C4.37 5.78 5.78 4.37 7.5 4.37L7.5 3.12C5.09 3.12 3.12 5.09 3.12 7.5Z" />
+                        </g>
+                      </g>
+                    </g>
+                  </svg>
+                </a>
+                <a class="product-info__content-link" href="#">
+                  <svg width="22" height="20">
+                    <title>Products</title>
+                    <style>
+                      tspan {
+                        white-space: pre
+                      }
+
+                      .shp0 {
+                        fill: #a3bbc8
+                      }
+                    </style>
+                    <g id="Products">
+                      <g id="Items">
+                        <g id="Item 2">
+                          <path id="Forma 1" class="shp0"
+                            d="M0.81 1.63L3.15 1.63L6.47 13.67C6.57 14.02 6.89 14.26 7.26 14.26L17.47 14.26C17.8 14.26 18.08 14.07 18.22 13.78L21.93 5.22C22.04 4.96 22.02 4.67 21.87 4.44C21.72 4.21 21.46 4.07 21.19 4.07L9.9 4.07C9.45 4.07 9.09 4.44 9.09 4.89C9.09 5.34 9.45 5.71 9.9 5.71L19.94 5.71L16.93 12.63L7.87 12.63L4.54 0.6C4.45 0.24 4.12 0 3.76 0L0.81 0C0.37 0 0 0.37 0 0.81C0 1.26 0.37 1.63 0.81 1.63ZM6.48 20C7.5 20 8.33 19.17 8.33 18.15C8.33 17.13 7.5 16.3 6.48 16.3C5.47 16.3 4.64 17.13 4.64 18.15C4.64 19.17 5.47 20 6.48 20ZM18.01 20C18.05 20 18.11 20 18.15 20C18.64 19.96 19.09 19.74 19.41 19.36C19.74 18.99 19.89 18.52 19.86 18.02C19.79 17.01 18.91 16.23 17.89 16.3C16.87 16.37 16.11 17.27 16.18 18.27C16.25 19.24 17.05 20 18.01 20Z" />
+                        </g>
+                      </g>
+                    </g>
+                  </svg>
+                </a>
+                <a class="product-info__content-link" href="#">
+                  <svg width="22" height="18">
+                    <title>Products</title>
+                    <style>
+                      tspan {
+                        white-space: pre
+                      }
+
+                      .shp0 {
+                        fill: #a3bbc8
+                      }
+                    </style>
+                    <g id="Products">
+                      <g id="Items">
+                        <g id="Item 2">
+                          <path id="Forma 1" class="shp0"
+                            d="M21.99 5.82C21.91 4.27 21.25 2.81 20.14 1.72C19.02 0.61 17.55 0 16 0C13.69 0 12.05 1.78 11.18 2.74C11.13 2.8 11.07 2.86 11.02 2.91C10.99 2.88 10.96 2.85 10.94 2.82C10.13 1.9 8.46 0 6 0C4.45 0 2.98 0.61 1.86 1.72C0.75 2.81 0.09 4.27 0.01 5.82C-0.07 7.36 0.32 8.7 1.28 10.16C2.14 11.47 4.38 13.53 6.04 14.91C7.75 16.32 9.99 18 11.01 18C12.04 18 14.28 16.32 15.97 14.91C17.62 13.54 19.85 11.48 20.72 10.16C21.37 9.17 22.1 7.79 21.99 5.82ZM19.61 9.43C18.98 10.39 17.2 12.17 15.18 13.85C12.78 15.85 11.35 16.64 11.01 16.67C10.67 16.64 9.24 15.84 6.82 13.83C4.79 12.15 3.01 10.38 2.39 9.43C1.59 8.22 1.27 7.13 1.33 5.89C1.47 3.37 3.56 1.32 6 1.32C7.86 1.32 9.21 2.86 9.94 3.69C10.37 4.18 10.6 4.45 11 4.45C11.41 4.45 11.67 4.16 12.15 3.64C12.94 2.77 14.27 1.32 16 1.32C18.44 1.32 20.53 3.37 20.67 5.89C20.74 7.15 20.42 8.2 19.61 9.43Z" />
+                        </g>
+                      </g>
+                    </g>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="pagination">
+          <ul class="pagination__list">
+            <li class="pagination__item">
+              <a href="#" class="pagination__link pagination__link--active">1</a>
+            </li>
+            <li class="pagination__item">
+              <a href="#" class="pagination__link">2</a>
+            </li>
+            <li class="pagination__item">
+              <a href="#" class="pagination__link">3</a>
+            </li>
+          </ul>
+          <a class="pagination__next" href="#">Next</a>
+        </div>
+        
+      </div>
+    </section>
+    <div class="articles-shop">
+      <div class="container">
+        <ul class="articles-list">
+          <li class="articles-list__item">
+            <img src="images/articles-list/1.png" alt="">
+          </li>
+          <li class="articles-list__item">
+            <img src="images/articles-list/2.png" alt="">
+          </li>
+          <li class="articles-list__item">
+            <img src="images/articles-list/3.png" alt="">
+          </li>
+          <li class="articles-list__item">
+            <img src="images/articles-list/4.png" alt="">
+          </li>
+          <li class="articles-list__item">
+            <img src="images/articles-list/5.png" alt="">
+          </li>
+        </ul>
+      </div>
+    </div>
+  </main>
+
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-top__item footer-top__item-contact">
+          <a class="logo footer-top__logo" href="#">
+            <img class="logo__img" src="images/logo.png" alt="">
+          </a>
+          <a class="footer-top__adress" href="#">
+            ADDRESS: 4772 Wines Lane
+            Houston, TX 77032</a>
+          <a class="footer-top__phone" href="tell:+8323475843">
+            Telephone: +832-347-5843
+          </a>
+          <a class="footer-top__email" href="mailto:contact@Glee.com">
+            Email: contact@Glee.com
+          </a>
+        </div>
+        <div class="footer-top__item footer-top__nav">
+          <h6 class="footer-top__title">SERVICES</h6>
+          <ul class="footer-top__list">
+            <li class="footer-top__list-item">
+              <a class="footer-top__list-link" href="#">About us</a>
+            </li>
+            <li class="footer-top__list-item">
+              <a class="footer-top__list-link" href="#">Return Policy</a>
+            </li>
+            <li class="footer-top__list-item">
+              <a class="footer-top__list-link" href="#">Our Blog</a>
+            </li>
+            <li class="footer-top__list-item">
+              <a class="footer-top__list-link" href="#">Contact Us</a>
+            </li>
+            <li class="footer-top__list-item">
+              <a class="footer-top__list-link" href="#">Terms & Condition</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-top__item footer-top__nav">
+          <h6 class="footer-top__title">ACCOUNT</h6>
+          <ul class="footer-top__list">
+            <li class="footer-top__list-item">
+              <a class="footer-top__list-link" href="#">Your Account</a>
+            </li>
+            <li class="footer-top__list-item">
+              <a class="footer-top__list-link" href="#">Checkout</a>
+            </li>
+            <li class="footer-top__list-item">
+              <a class="footer-top__list-link" href="#">Login</a>
+            </li>
+            <li class="footer-top__list-item">
+              <a class="footer-top__list-link" href="#">Register</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-top__item footer-top__item-submit">
+          <h6 class="footer-top__title">NEWSlETTER</h6>
+          <p class="footer-top__text">
+            Subscribe by our newsletter and get
+            update protidin.
+          </p>
+          <form class="footer-top__form">
+            <input class="footer-top__form-input" type="email" placeholder="Email address" required>
+            <button class="footer-top__form-btn">Subscribe</button>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="footer-bottom__copy">
+          ©2020 CopyRight Example. All rights reserved.
+        </div>
+        <div class="footer-bottom__menu">
+          <a class="footer-bottom__link" href="#">Home</a>
+          <a class="footer-bottom__link" href="#">About</a>
+          <a class="footer-bottom__link" href="#">Blog</a>
+          <a class="footer-bottom__link" href="#">Contact</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>
